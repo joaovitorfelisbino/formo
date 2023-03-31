@@ -2,4 +2,41 @@
 
 
 
-/* configuraçãoes pra media  */
+
+    @media screen and ( min-width: 720px) and (max-width: 980px) {
+        main {
+            background-image: linear-gradient(to bottom , #800080,#39b378b9);
+            height: 100vh;
+            width: 100vw;
+        }
+        section#login {
+            width: 80vw;
+        }
+        section#login > div#imagem {
+            float: left;
+            width: 35%;
+            height: 100%;
+        }
+        section#login > div#formulario {
+            float: right;
+            width: 65%;
+        }
+        div.campo {
+            display: block;
+        }
+    }
+
+    @media screen and (min-width: 980px) {
+        section#login {
+            width: 80vw;
+        }
+        section#login > div#imagem {
+            float: left;
+            width: 50%;
+            height: 100%;
+        }
+        section#login > div#formulario {
+            float: right;
+            width: 50%;
+        }
+    }
