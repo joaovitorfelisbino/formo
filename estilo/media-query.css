@@ -20,12 +20,10 @@
         section#login > div#formulario {
             float: right;
             width: 65%;
-        }
-        div.campo {
-            display: block;
+            background-color: white;
+            padding: 10px;
         }
     }
-
     @media screen and (min-width: 980px) {
         section#login {
             width: 80vw;
