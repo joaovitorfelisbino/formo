@@ -39,3 +39,20 @@ div#imagem {
     width: 100%;
     display: block;
 }
+div#formulario {
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    width: 90%;
+}
+div#formulario > h2 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+div#formulario > p {
+    text-align: justify;
+    margin-left: 20px;
+}
