@@ -8,96 +8,34 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 html,body {
-    background-color: purple;
+    background-color: rgb(132, 11, 108);
     height: 100vh;
     width: 100vw;
 }
-main{
-    background-color: purple;
-    height: 100vh;
-    width: 100vw;
+main {
     position: relative;
+    height: 100%;
+    width: 100%;
 }
 section#login {
-    display: block;
+    background-color: #fff;
+    min-width: 320px;
+    max-width: 480px;
+    height: 600px;
+
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50% , -50%);
-    background-color: #fff;
-    width: 350px;
-    height: 550px;
+    transform: translate(-50%,-50%);
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.441);
-    transition: width 0.8s,heigth 0.8s;
 }
 div#imagem {
-    display: block;
     background-image: url(../imagem/pexels-trace-hudson-2400594.jpg);
+    background-position: right center;
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
-    height: 200px;
-}
-div#formulario {
-    padding: 10px;
-}
-div#formulario > h1 {
-    text-align: center;
-}
-div#formulario > p {
-    padding-top: 5px;
-    font-size: 0.8em;
-    text-align: justify;
-}
-form > div.campo {
+    height: 30%;
     width: 100%;
-    margin: auto;
     display: block;
-    background-color: purple;
-    margin: 5px auto;
-    padding-bottom: 15px;
-    border-radius: 5px;
-}
-#ilogin {
-    padding: 7px;
-}
-#isenha {
-    padding: 7px;
-}
-.material-symbols-outlined {
-   padding: 10px;
-}
-#entrar {
-    background-color: #39b378b9;
-    width: 90%;
-    height: 40px;
-    display: block;
-    border: none;
-    margin: auto;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-#entrar:hover {
-    background-color: #257a51ed;
-}
-#esqueci-senha {
-    display: block;
-    background-color: #39b378b9;
-    width: 90%;
-    height: 40px;
-    padding-top: 10px;
-    margin: auto;
-    border: none;
-    margin-top: 10px;
-    border-radius: 5px;
-}
-form a {
-    padding-top: 5px;
-    color: black;
-    text-align: center;
-    text-decoration: none;
-}
-#esqueci-senha:hover {
-    background-color: #257a51ed;
 }
