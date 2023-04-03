@@ -25,8 +25,8 @@ section#login {
     left: 50%;
     transform: translate(-50% , -50%);
     background-color: #fff;
-    width: 250px;
-    height: 500px;
+    width: 350px;
+    height: 600px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.441);
@@ -51,23 +51,31 @@ div#formulario > p {
     text-align: justify;
 }
 form > div.campo {
-    width: 100%;
+    width: 90%;
+    margin: auto;
     display: block;
     background-color: purple;
-    margin: 5px 0px;
-    padding-bottom: 10px;
+    margin: 15px auto;
+    padding-bottom: 15px;
     border-radius: 5px;
 }
+#ilogin {
+    padding: 8px;
+}
+#isenha {
+    padding: 8px;
+}
 .material-symbols-outlined {
-    padding-top: 5px;
+    padding-top: 10px;
 }
 #entrar {
     background-color: #39b378b9;
     width: 90%;
-    height: 30px;
+    height: 40px;
     display: block;
     border: none;
     margin: auto;
+    margin-top: 30px;
     border-radius: 5px;
 }
 #entrar:hover {
@@ -77,8 +85,11 @@ form > div.campo {
     display: block;
     background-color: #39b378b9;
     width: 90%;
-    height: 30px;
-    margin: 10px auto;
+    height: 40px;
+    padding-top: 10px;
+    margin: auto;
+    border: none;
+    margin-top: 20px;
     border-radius: 5px;
 }
 form a {
